@@ -12,5 +12,5 @@ TEST_CASE("it should count the words" ) {
 }
 
 TEST_CASE("it should count the number of characters" ) {
-  REQUIRE(charCounter("apple") == 5);
+  REQUIRE(charCounter("apple \n") == 7);
 }
