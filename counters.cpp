@@ -10,7 +10,7 @@ unsigned int lineCounter(std::string _content) {
 }
 
 unsigned int wordCounter(std::string _content) {
-  unsigned int wordCount = 0;
+  unsigned int wordCount = 1;
   for (unsigned int i = 0; i < _content.length(); ++i)
     if (_content[i] == ' ' || _content[i] == '\n') {
       wordCount++;
